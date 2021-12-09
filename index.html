@@ -1,33 +1,39 @@
 <!DOCTYPE html>
-<html lang=en>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X UA Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial scale=1.0">
-        <link href="css/style.css" rel="stylesheet" type="text/css">
-        <title>Index</title>
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Tic-Tac-Toe</title>
+        <link href="styles.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <header>
+        <h1>Tic-Tac-Toe</h1>
+        <div class="container-box">
+            <div id = cell_1></div>
+            <div id = cell_2></div>
+            <div id = cell_3></div>
+            <div id = cell_4></div>
+            <div id = cell_5></div>
+            <div id = cell_6></div>
+            <div id = cell_7></div>
+            <div id = cell_8></div>
+            <div id = cell_9></div>
+        </div>
+        <div class="board">
+            <p id="winner">Welcome to Tic-Tac-Toe!</p>
+            <button id="clear">CLEAR BOARD</button>
+          </div>
 
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="projects.html">Porfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <h1>Kyle Stocek</h1>
-        <h2>Web Design</h2>
-        <img src="images/download.jpg" alt="Kyle Swimming">
-        <p>My name is Kyle Stocek, I am a swimmer for Concordia University Irvine. I love doing what I do and I believe in big things. I want to take over what my Father did in ASU. Swim and be the best you can be in it.
-            I am also a hard worker, currently standing with a 4.0 GPA. I want to be a hard worker for the future me can be successful. I want no regrets.
-        </p>
-        <footer>
-            &copy; <em id="date"></em>Kyle
-        </footer>
+        <!-- WORK IN PROGRESS
+            <div class= "score">
+            <p id= "xscore">X score: </p> 
+            <p id= "oscore">O score: </p>
+        </div>
+        -->
+      
+        <script src="index.js"></script>
 
     </body>
+
 </html>
