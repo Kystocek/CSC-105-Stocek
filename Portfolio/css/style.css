@@ -1,0 +1,73 @@
+
+@media screen and (min-width: 600px), screen and (orientation: landscape) {
+
+
+    body {
+        text-align: center;
+        padding-top: 50px;
+    }
+    nav {
+        margin: 0;
+        border-top: 5px solid rgb(255, 0, 0);
+        border-bottom: 5px solid rgb(255, 0, 0);
+        background-color: black;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        
+    }
+    li {
+        display: inline;
+        padding: 10px;
+        font-size: large;
+    }
+    ul {
+        padding: 10px 0;
+
+    }
+    a {
+        color: white;
+
+    }
+
+
+    a:hover { 
+        color: rgb(255, 0, 0);
+    }
+    img {
+        margin: 1em;
+        border-radius: 20px;
+        
+    }
+    p:first-letter {
+        font-size: 150%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    p {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    form { 
+        margin: 0 auto; 
+        width:150px;
+        text-align: center;
+        padding: 4%;
+        border: 5px solid red;
+    
+    }
+    input:focus {
+        background-color: lightcoral;
+    }
+    textarea:focus {
+        background-color: lightcoral;
+    }
+    .myGallery {
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: repeat(auto-fit, minmax(15px, 1fr));
+        margin: 100px;
+    }
+    
+    .myGallery img {
+        width: 100%;
+    }
+}
